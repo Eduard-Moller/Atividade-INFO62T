@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+#cabecalho {
+    display: flex;
+    background-color: #363636;
+    margin: 0;
+}
+#cabecalho a {
+    color: #fff;
+    text-decoration: none;
+    padding: 40px;
+}
+#logo {
+    width: 60px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#cabecalho a:hover {
+    color: #000;
+    cursor: pointer;
+}
+h1 {
+    font-size: 55px;
+    color: #000;
+    text-align:center;
+    letter-spacing: 3px;
+    margin-left: 400px;
+    margin-right: 350px;
+    width: 55%;
+}
+p {
+    margin-left: 400px;
+    margin-right: 350px;
+    font-size: 20px;
+    color: #363636;
+    text-align: justify;
+    
+}
+#recuo {
+    text-indent: 30px;
+}
+#imagem {
+    margin-left: 490px;
+    margin-top: 90px;
+    width: 50%;
+    height: 40%;
+
+    }
+#textoimagem p {
+    font-size: 12px;
+    margin-left: 500px;
+    text-align: justify;
+    margin-top: 30px;
+}
+#imagem2 {
+    margin-top: 50px;
+    margin-left: 790px;
+    height: 30%;
+    width: 20%;
+}
+#espacamento p {
+    margin-top: 70px;
+}
+#contato {
+    display: flex;
+    background-color: #363636;
+    align-items: center;
+    color:white;
+    justify-content: center;
+    flex-direction: column;
+}
+#numero {
+    color: white;  
+}
+#telefone {
+    width: 1%;
+    height: 1%;
+
+}
+#email {
+    width: 2%;
+    height: 2%;
+    
+}
+
